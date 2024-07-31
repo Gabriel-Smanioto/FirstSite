@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Playwrite+AR:wght@100..400&display=swap");
+.dados {
+  text-align: center;
+}
+
+/* Formatar a imagem com cantos arredondados */
+.perfil {
+  width: 190px;
+  border-radius: 50%;
+}
+/* Formartar título com ID */
+#cv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #42a3fd;
+  font-size: 50px;
+
+  font-family: "Playwrite AR", cursive;
+}
+
+/* Formatar a imagem com cantos arredondados */
+.logo {
+  width: 350px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+}
+p {
+  font-size: 30px;
+}
+
+.titulo {
+  background-color: #e0e0e0;
+  font-family: "Parisienne", cursive;
+  color: black;
+  text-align: center;
+}
+
+.box{
+  width: 250px;
+  /* O alinhamento da div */
+  display: inline-block;
+  /* mudando a margem */
+  margin-right: 50px;
+  /* Colocando borda na div */
+  border: 10px solid black;
+}
+.figura{
+  width: 200px;
+  height: 150px;
+  border: 4px solid black;
+}
